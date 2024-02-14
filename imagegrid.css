@@ -1,0 +1,50 @@
+#box{
+    display: grid;
+    background-color:cyan;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    text-align: center;
+    gap: 20px 10px;
+}
+img{
+    height:100%;
+    width:100%;
+}
+h1{
+    text-align: center;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+#box >div{
+    background-color:cornflowerblue;
+    border: 3px solid black;
+    padding: 5px;
+}
+#shinchan{
+    grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end: 3;
+}
+#friends{
+    grid-column-start:3;
+    grid-column-end:5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+#doremon{
+    grid-row-start:5;
+    grid-row-end: 7;
+}
+#krishna-bala{
+    grid-column-start:4;
+    grid-column-end:7;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+#jerry{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
